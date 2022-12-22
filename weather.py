@@ -2,7 +2,7 @@ import streamlit as st
 import datetime,requests
 from plotly import graph_objects as go
 
-st.set_page_config(page_title='Nikhilesh Shah', page_icon=":rainbow:")
+st.set_page_config(page_title='Thesis UTE Weather', page_icon=":rainbow:")
 
 st.title("8-DAY WEATHER FORECAST 🌧️🌥️")
 
@@ -161,7 +161,11 @@ if(st.button("SUBMIT")):
         st.header(' ')
         st.header(' ')
         st.markdown(" Made with :heart: by : ")
-        st.markdown(" Phạm Thế Anh 🤩 Hồ Trương Công Thắng 🤗 Trần Công Khánh 🥰 Nguyễn Xuân Quang 🥰 Phan Thị Quỳnh Giang ")
+        st.markdown(" Phạm Thế Anh 🤩 20610014")
+        st.markdown(" Hồ Trương Công Thắng 🤗 20810007")
+        st.markdown(" Trần Công Khánh 🥰 20810010")
+        st.markdown(" Nguyễn Xuân Quang 🥰 208410014")
+        st.markdown(" Phan Thị Quỳnh Giang 🥰 20810016")
  
     except KeyError:
         st.error(" Invalid city!!  Please try again !!")
