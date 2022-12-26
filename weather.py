@@ -4,7 +4,7 @@ from plotly import graph_objects as go
 
 st.set_page_config(page_title='Thesis UTE Weather', page_icon=":rainbow:")
 
-st.title("DỰ BÁO THỜI TIẾT 8 NGÀY SẮP TỚI 🌧️🌥️")
+st.title("DỰ BÁO THỜI TIẾT 🌧️🌥️")
 
 city=st.text_input("NHẬP TÊN THÀNH PHỐ BẤT KỲ TRÊN THẾ GIỚI")
 
