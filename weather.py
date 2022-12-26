@@ -150,7 +150,7 @@ if(st.button("SUBMIT")):
         table1.update_layout(margin=dict(l=10,r=10,b=10,t=10),height=328)
         st.write(table1)
         
-        table2=go.Figure(data=[go.Table(columnwidth=[1,2,1,1,1,1],header=dict(values=['<b>NGÀY</b>','<b>TÌNH HÌNH THỜI TIẾT</b>','<b>TỐC ĐỘ GIÓ</b>','<b>ÁP SUẤT<br>(in hPa)</b>','<b>MẶT TRỜI LẶN<br>(in UTC)</b>','<b>MẶT TRỜI MỌC<br>(in UTC)</b>']
+        table2=go.Figure(data=[go.Table(columnwidth=[1,2,1,1,1,1],header=dict(values=['<b>NGÀY</b>','<b>TÌNH HÌNH THỜI TIẾT</b>','<b>TỐC ĐỘ GIÓ</b>','<b>ÁP SUẤT<br>(in hPa)</b>','<b>HOÀNG HÔN<br>(in UTC)</b>','<b>BÌNH MINH<br>(in UTC)</b>']
                   ,line_color='black', fill_color='royalblue',  font=dict(color='white', size=14),height=36),
         cells=dict(values=[dates,desc,wspeed,pres,sunrise,sunset],
         line_color='black',fill_color=['paleturquoise',['palegreen', '#fdbe72']*7], font_size=14,height=36))])
