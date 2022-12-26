@@ -4,15 +4,15 @@ from plotly import graph_objects as go
 
 st.set_page_config(page_title='Thesis UTE Weather', page_icon=":rainbow:")
 
-st.title("8-DAY WEATHER FORECAST 🌧️🌥️")
+st.title("DỰ BÁO THỜI TIẾT 8 NGÀY SẮP TỚI 🌧️🌥️")
 
-city=st.text_input("ENTER THE NAME OF THE CITY ")
+city=st.text_input("NHẬP TÊN THÀNH PHỐ BẤT KỲ TRÊN THẾ GIỚI")
 
-unit=st.selectbox("SELECT TEMPERATURE UNIT ",["Celsius","Fahrenheit"])
+unit=st.selectbox("CHỌN ĐƠN VỊ NHIỆT ĐỘ ",["Celsius","Fahrenheit"])
 
-speed=st.selectbox("SELECT WIND SPEED UNIT ",["Metre/sec","Kilometre/hour"])
+speed=st.selectbox("CHỌN ĐƠN VỊ TỐC ĐỘ GIÓ ",["Metre/sec","Kilometre/hour"])
 
-graph=st.radio("SELECT GRAPH TYPE ",["Bar Graph","Line Graph"])
+graph=st.radio("CHỌN LOẠI BIỂU ĐỒ ",["Bar Graph","Line Graph"])
 
 st.markdown(
     """
@@ -162,10 +162,10 @@ if(st.button("SUBMIT")):
         st.header(' ')
         st.markdown(" Made with :heart: by : ")
         st.markdown(" Phạm Thế Anh 🤩 20610014")
-        st.markdown(" Hồ Trương Công Thắng 🤗 20810007")
         st.markdown(" Trần Công Khánh 🥰 20810010")
         st.markdown(" Nguyễn Xuân Quang 🥰 208410014")
         st.markdown(" Phan Thị Quỳnh Giang 🥰 20810016")
+        st.markdown(" Hồ Trương Công Thắng 🤗 20810007")
  
     except KeyError:
         st.error(" Invalid city!!  Please try again !!")
