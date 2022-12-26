@@ -161,11 +161,11 @@ if(st.button("SUBMIT")):
         st.header(' ')
         st.header(' ')
         st.markdown(" ĐỒ ÁN ĐƯỢC THỰC HIỆN BỞI : ")
-        st.markdown(" Front-end&Back-end : Phạm Thế Anh 🤩 20610014")
-        st.markdown(" UML Diagram : Hồ Trương Công Thắng 🤗 20810007")
-        st.markdown(" Design UX/UI : Phan Thị Quỳnh Giang 🥰 20810016")
-        st.markdown(" API Data Analyst : Nguyễn Xuân Quang 🥰 208410014")
-        st.markdown(" IT Support Environment : Trần Công Khánh 🥰 20810010")
+        st.markdown(" Front-end&Back-end : Phạm Thế Anh - 20610014")
+        st.markdown(" UML Diagram : Hồ Trương Công Thắng - 20810007")
+        st.markdown(" Design UX/UI : Phan Thị Quỳnh Giang - 20810016")
+        st.markdown(" API Data Analyst : Nguyễn Xuân Quang - 208410014")
+        st.markdown(" IT Support Environment : Trần Công Khánh - 20810010")
  
     except KeyError:
         st.error(" Invalid city!!  Please try again !!")
