@@ -18,7 +18,7 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__480.jpg")
+        background: url("https://c0.wallpaperflare.com/preview/572/961/266/sky-dark-light-clouds.jpg")
     }
   
     </style>
