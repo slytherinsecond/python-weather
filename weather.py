@@ -18,7 +18,7 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://c0.wallpaperflare.com/preview/572/961/266/sky-dark-light-clouds.jpg")
+        background: url("https://static.vecteezy.com/system/resources/thumbnails/001/625/420/small/clouds-moving-around-background-free-video.jpg")
     }
   
     </style>
